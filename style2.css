@@ -1,0 +1,43 @@
+body, html {
+    height: 100%;
+    background-image: url("wallpaper2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: "Nunito", serif;
+    color:#2a2054;
+    font-size: 72px;
+  }
+
+  button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+
+  .bg-image {
+    /* The image used */
+    background-image: url("wallpaper2.jpg");
+    
+    /* Add the blur effect */
+    
+    filter:blur(10px);
+    
+    /* Full height */
+    height: 100%; 
+    
+    /* Center and scale the image nicely */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+#text-2 {
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

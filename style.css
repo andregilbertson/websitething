@@ -1,0 +1,78 @@
+body, html {
+    height: 100%;
+    background-image: url("wallpaper2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: "Nunito", serif;
+    color:#2a2054;
+    font-size: 72px;
+  }
+  
+
+  
+
+
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.bg-image {
+    /* The image used */
+    background-image: url("wallpaper2.jpg");
+    
+    /* Add the blur effect */
+    
+    
+    
+    /* Full height */
+    height: 100%; 
+    
+    /* Center and scale the image nicely */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#my-text {
+  opacity: 0;
+  transition: opacity 2s;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: #FFF 0px 0px 8px;
+  font-weight: bolder;
+}
+
+#my-text.fade-in {
+  opacity: 1;
+}
+
+#my-text.fade-out {
+  opacity: 0;
+}
+
+#my-text-2 {
+  opacity: 0;
+  transition: opacity 2s;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: #FFF 0px 0px 8px;
+  font-weight: bolder;
+}
+
+#my-text-2.fade-in {
+  opacity: 1;
+}
+
+#my-text-2.fade-out {
+  opacity: 0;
+}
+
